@@ -713,10 +713,6 @@ section .title::after{
         margin-left: 0px;
     }
 
-    .home {
-        height: 200vh;
-    }
-
     .about .about-content .left img{
         height: 425px;
         width: 250px;
@@ -724,6 +720,10 @@ section .title::after{
 }
 
 @media (max-width: 1250px){
+    .home {
+        height: 150vh;
+    }
+        
     .services .serv-content .card{
         width: calc(100% - 10px);
         margin-bottom: 20px;
@@ -799,10 +799,7 @@ section .title::after{
 }
 
 @media (max-width: 500px){
-    .home {
-        height: 145vh;
-    }
-
+   
     .home .home-content .home-img-container img{
         width: 75%;
     }
